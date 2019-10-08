@@ -107,15 +107,15 @@ def get_long_description():
 
 
 setup(
-    name='labelme',
+    name='augmentlabelme',
     version=version,
     packages=find_packages(),
-    description='Image Polygonal Annotation with Python',
+    description='Image Annotation with Python',
     long_description=get_long_description(),
     long_description_content_type='text/markdown',
-    author='Kentaro Wada',
-    author_email='www.kentaro.wada@gmail.com',
-    url='https://github.com/wkentaro/labelme',
+    author='zxyu',
+    author_email='xingyu.zxyu@gmail.com',
+    url='https://github.com/Ericargus/labelme',
     install_requires=install_requires,
     license='GPLv3',
     keywords='Image Annotation, Machine Learning',
