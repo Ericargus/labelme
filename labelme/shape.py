@@ -107,9 +107,10 @@ class Shape(object):
         if self.points:
             color = self.select_line_color \
                 if self.selected else self.line_color
-            pen = QtGui.QPen(color)
+            #pen = QtGui.QPen(color)
+            pen = QtGui.QPen(Qt.blue)
             # Try using integer sizes for smoother drawing(?)
-            pen.setWidth(max(1, int(round(2.0 / self.scale))))
+            pen.setWidth(max(4, int(round(2.0 / self.scale))))
             painter.setPen(pen)
 
             line_path = QtGui.QPainterPath()
